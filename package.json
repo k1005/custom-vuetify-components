@@ -1,0 +1,39 @@
+{
+  "name": "custom-vuetify-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": [
+    "dist/index.d.ts",
+    "vuetify"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k1005/custom-vuetify-components.git"
+  },
+  "keywords": [
+    "vuetify",
+    "compoments"
+  ],
+  "peerDependencies": {
+    "vue": "*",
+    "vuetify": "*"
+  },
+  "author": "k1005",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/pluralize": "0.0.29",
+    "chai": "^4.3.0",
+    "mocha": "^8.3.0",
+    "typescript": "^4.2.2",
+    "vue": "^2.6.12",
+    "vuetify": "^2.4.5"
+  },
+  "dependencies": {
+    "pluralize": "^8.0.0"
+  }
+}
